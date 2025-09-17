@@ -56,20 +56,78 @@ nav ul li a:hover{
     opacity: 0.7;
 }
 
-.banner{
+.Banner{
     width: 100;
     height: 600px;
 }
 
-.banner img{
+.Banner img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+.Servicos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.item-servicos{
+    width: 22%;
+    height: auto;
+}
 
+.item-servicos img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
 
+.item-servicos h2{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: -5px;
+    padding: 5px 0;
+}
 
+.Publicidade{
+    width: 100%;
+    background-color: #ddd;
+    padding: 30px 0;
+}
+
+.Publicidade h1{
+   text-align: center;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: sans-serif;
+}
+
+.Cliente{
+   display: flex;
+   margin: 20px 0;
+   }
+
+.Cliente-texto{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 17px;
+    padding: 20px ;
+
+}
+
+.Cliente-img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    margin-right: 15px;
+   
+}
 
 
 
