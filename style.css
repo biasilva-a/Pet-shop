@@ -1,3 +1,10 @@
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+
 header{
     background-color: #ddd;
     width: 100%;
@@ -7,15 +14,15 @@ header{
 .topo{
     width: 80%;
     height: auto;
-    margin: auto;
+    margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo{
-    width: fit-content;
-    height: auto;
+    width:fit-content;
+    height: auto;   
 }
 
 .logo img{
@@ -46,34 +53,35 @@ nav ul li:first-child{
 
 nav ul li a{
     text-decoration: none;
-    color: #333;
-    font-size: 18px;
+    color:#333;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
 
 nav ul li a:hover{
     opacity: 0.7;
 }
 
-.Banner{
-    width: 100;
-    height: 600px;
+.banner{
+   width: 100; 
+   height: 600px;
 }
 
-.Banner img{
+.banner img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.Servicos{
-    width: 100%;
+.servicos{
+    width: 95%;
     height: auto;
     display: flex;
     justify-content: space-around;
-    margin: 40px 0;
+    margin: 40px auto;
+    padding: 0px;
 }
+
 .item-servicos{
     width: 22%;
     height: auto;
@@ -86,48 +94,114 @@ nav ul li a:hover{
 }
 
 .item-servicos h2{
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     margin: 0;
     text-align: center;
-    font-family: sans-serif;
     margin-top: -5px;
     padding: 5px 0;
+    font-size: 1.4rem;
 }
 
-.Publicidade{
+.publicidade{
     width: 100%;
     background-color: #ddd;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
-.Publicidade h1{
-   text-align: center;
-   font-size: 40px;
-   text-transform: uppercase;
-   font-family: sans-serif;
+.publicidade h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
 }
+
+/*  Cliente */
 
 .Cliente{
-   display: flex;
-   margin: 20px 0;
-   }
+    width: 95%;
+    height: auto;
+    display: flex;  
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
 
 .Cliente-texto{
-    font-family: sans-serif;
-    text-align: left;
-    font-size: 17px;
-    padding: 20px ;
+    width: 70%;
+    height: auto;
+}
 
+.Cliente-texto h1{
+    font-size: 1.4rem;
+}
+
+.Cliente-texto p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
 
 .Cliente-img{
-    width: 100%;
-    height: 110px;
-    object-fit: cover;
-    margin-right: 15px;
-   
+    width: 30%;
+    height: auto;
 }
+
+.Cliente-img img{
+    width: 100%;
+}
+
+/* Atendimento */
+
+.atendimento{
+    width: 95%;
+    height: auto;
+    display: flex;  
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.foto-atendimento, .atendimento-conteudo{
+    width: 50%;
+    height: auto;
+}
+
+.foto-atendimento img{
+    width: 100%;
+}
+
+.atendimento-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 212, 3);
+}
+
+.atendimento h1{
+    font-size: 3rem;
+}
+
+.atendimento h2{
+    font-size: 2.5rem;
+}
+
+/*  Fale conosco */
+
+.Fale-conosco{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
 
 
 
