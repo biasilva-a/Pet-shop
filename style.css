@@ -3,8 +3,6 @@
     font-family: sans-serif;
 }
 
-
-
 header{
     background-color: #ddd;
     width: 100%;
@@ -115,46 +113,46 @@ nav ul li a:hover{
     text-transform: uppercase;
 }
 
-/*  Cliente */
+/* ###################Cliente############################# */
 
-.Cliente{
+.cliente{
     width: 95%;
     height: auto;
-    display: flex;  
+    display: flex;
     justify-content: center;
     margin: 40px auto;
     padding: 0px;
 }
 
-.Cliente-texto{
+.conteudo-cliente{
     width: 70%;
     height: auto;
 }
 
-.Cliente-texto h1{
+.conteudo-cliente h1{
     font-size: 1.4rem;
 }
 
-.Cliente-texto p{
+.conteudo-cliente p{
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
 
-.Cliente-img{
+.foto-cachorro{
     width: 30%;
     height: auto;
 }
 
-.Cliente-img img{
+.foto-cachorro img{
     width: 100%;
 }
 
-/* Atendimento */
+/* ########################## ATENDIMENTO ################ */
 
 .atendimento{
     width: 95%;
     height: auto;
-    display: flex;  
+    display: flex;
     justify-content: center;
     margin: 40px auto;
     padding: 0px;
@@ -185,15 +183,133 @@ nav ul li a:hover{
     font-size: 2.5rem;
 }
 
-/*  Fale conosco */
-
-.Fale-conosco{
+/* ############### FALE CONOSCO ################ */
+.fale-conosco{
     background-color: #333;
     color: #fff;
     width: 100%;
     height: auto;
     padding: 40px 0;
+    display: flex;
 }
+
+.formulario, .contato{
+    width: 50%;
+    height: auto;
+    padding: 0 40px;
+}
+
+.formulario input, .formulario textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type=submit]{
+    width: fit-content;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.formulario input[type=submit]:hover{
+    background: #fff;
+    color: #000000;
+}
+.linha{
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.linha i{
+    font-size: 1.5rem;
+}
+
+.icone i{
+    font-size: 2.9rem;
+}
+
+.mapa{
+    width: 100%;
+    height: auto;
+}
+
+.rodape{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #ccc;
+    margin-top: -5px;
+}
+
+.rodape p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* ######################### BANHO E TOSA ###################### */
+
+.titulo{
+    width: 100%;
+    height: auto;
+}
+
+.titulo h1{
+    width: 30%;
+    background-color: #000000;
+    padding: 20px 0 20px 50px;
+    color: #ffffff;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    margin: 50px 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.banho {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start; 
+}
+
+.img-banho {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0 30px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.img-banho img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 30px; 
+}
+
+.texto-banho {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+}
+
 
 
 
