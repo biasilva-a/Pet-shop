@@ -275,7 +275,7 @@ nav ul li a:hover{
 }
 
 .banho {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
 }
@@ -298,7 +298,6 @@ nav ul li a:hover{
     margin: -5px 0px;
    margin-left: -70px;
    font-size: 1.5 rem;
-   font-weight: 600;
    text-align: left;
    padding: 0;
 }
@@ -321,13 +320,16 @@ nav ul li a:hover{
     color: #000;
 }
 .banner1 {
-  width: 90%;
-  height: 150px;
-  background-color: #ccc;
-  margin: 5px auto 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;     
+    width: 90%;
+    height: 150px;
+    padding: 30px;
+    background-color: #ccc;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;     
 }
 
 .titulo-banner{
