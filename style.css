@@ -265,54 +265,125 @@ nav ul li a:hover{
 
 .titulo h1{
     width: 30%;
-    background-color: #000000;
-    padding: 20px 0 20px 50px;
-    color: #ffffff;
-    font-size: 2.0rem;
+    background-color: #000;
+    padding: 10px 0 10px 50px;
+    color: #fff;
+    font-size: 2.5rem;
     text-transform: uppercase;
-    margin: 50px 0;
     border-radius: 0 20px 20px 0;
+    margin: 50px 0;
 }
 
 .banho {
     width: 100%;
     height: auto;
     display: flex;
-    align-items: flex-start; 
 }
 
 .img-banho {
     width: 50%;
     height: auto;
-    margin: 0;
-    padding: 0 30px 0 0;
-    display: flex;
-    align-items: center;
+    padding: 0 50px 0 0;
+    margin: 0 60px 40px;
+   
 }
 
 .img-banho img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 30px; 
 }
 
 .texto-banho {
     width: 50%;
     height: auto;
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    justify-content: flex-start; 
+    margin: -5px 0px;
+   margin-left: -70px;
+   font-size: 1.5 rem;
+   font-weight: 600;
+   text-align: left;
+   padding: 0;
 }
 
+.texto-banho button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2 rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: -5px;
+    margin-right: auto;
+    display: block;
+}
 
+.texto-banho button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.banner1 {
+  width: 90%;
+  height: 150px;
+  background-color: #ccc;
+  margin: 5px auto 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+}
 
+.titulo-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
 
+.titulo-banner h1{
+   color: #000;
+  font-size: 3.6rem;
+  font-weight: 750;
+  margin: 0 20px;
+}
+
+.titulo-banner i {
+  font-size: 2.0rem;
+}
+
+.fechamento{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 30px 60px;
+    padding: 0px;
+}
+
+.texto-final p{
+    font-size: 1.0rem;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.img-final img{
+    width: 100%;
+    margin-left: 60px;
+}
+
+.texto-final button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: -2px;
+    margin-right: auto;
+    display: block;
+}
+
+.texto-final button:hover{
+    background-color: #fff;
+    color: #000;
+}
 
 
 
