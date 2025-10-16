@@ -61,7 +61,7 @@ nav ul li a:hover{
 }
 
 .banner{
-   width: 100; 
+   width: 100%;
    height: 600px;
 }
 
@@ -386,6 +386,88 @@ nav ul li a:hover{
     background-color: #fff;
     color: #000;
 }
+
+/* ################# ADESTRAMENTO ###################### */
+
+.banner2{
+    width: 100%;
+    height:  600px;
+}
+
+.banner2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.cliente2 p{
+    font-size: 1.1rem;
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+
+.galeria-adestramento{
+    width: 100%;
+    background: #fff;
+    padding: 30px 0 40px;
+}
+
+.galeria-adestramento2{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.galeria-adestramento2 img{
+    width: 200px;
+    height: 150px; 
+    object-fit: cover;
+    display: block;
+    margin: 0 3px;
+}
+ /* ################# perguntas ##################### */
+
+ .Perguntas-frequentes{
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding: 0px;
+ }
+
+.Perguntas-frequentes h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.accordion-item button{
+    width: 100%;
+    width: 30px;
+    background-color: #bebebe;
+    color: #ececec;
+    width: 100%;
+    font-size: 1.0rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+.accordion-item button:hover{
+    background-color: #797979;
+    color: #e7e7e7;
+}
+
+
+
+
+
 
 
 
